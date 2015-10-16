@@ -1,2 +1,2 @@
-# my-first-github-repo
-An initial test repo for A100 Apprentices to use to practice on.
+# williamResumeSite
+Holds all of the html & css for personal resume site.
