@@ -1,1 +1,87 @@
 /* All style should go in this document. */
+.name{
+	text-align: center;
+}
+
+.contact{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top: thick double #607D8B;
+}
+
+.contact h2{
+	display: inline-block;
+}
+
+.contact p{
+	display: inline-block;
+	text-align: center;
+	padding-left: 6%;
+}
+
+.education{
+	width: 100%;
+	/*background-color: red;*/
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top: thick double #607D8B;
+}
+
+.experience{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top: thick double #607D8B;
+
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom: thick double #607D8B;
+}
+
+.title{
+	/*background-color: pink;*/
+	text-align: left;
+	display: inline-block;
+	font-weight: bold;
+	color: #16a085;
+}
+
+.date{
+	/*background-color: yellow;*/
+	text-align: right;
+	display: inline-block;
+}
+
+.education div{
+	width: 50%;
+	vertical-align: top;
+}
+
+.experience div{
+	width: 50%;
+	vertical-align: top;
+}
+
+body {
+	background-color: #F2F2F4;
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+	background-color: #16a085;
+}
+
+nav ul li{
+	display: inline-block;
+	border: 1px thick;
+	background-color: #607D8B;
+}
+
+body {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+body div h2{
+	text-decoration: underline;
+}
