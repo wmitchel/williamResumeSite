@@ -15,6 +15,11 @@
 	display: inline-block;
 	text-align: center;
 	padding-left: 6%;
+  color: #FFFFFF;
+}
+
+.contact p a{
+  color: #16a085;
 }
 
 .education{
@@ -42,12 +47,14 @@
 	display: inline-block;
 	font-weight: bold;
 	color: #16a085;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
 
 /* Dates for right side of title-date lines */
 .date{
 	text-align: right;
 	display: inline-block;
+  color: #16a085;
 }
 
 .education div{
@@ -61,21 +68,30 @@
 }
 
 body {
-	background-color: #F2F2F4;
+	background-color: #313336;
   padding-top: 50px;
-}
 
-nav{
-	width: 100%;
-	text-align: center;
-	background-color: #16a085;
-}
-
-body {
-	margin-left: 20px;
-	margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 body div h2{
 	text-decoration: underline;
+  font-family: ‘Courier New’, Courier, monospace;
+  color: #FFFFFF;
+}
+
+body div p{
+  color: #FFFFFF;
+}
+
+body div ul{
+  color: #FFFFFF;
+}
+
+.navbar-brand{
+  font-family: ‘Courier New’, Courier, monospace;
+}
+#nav-button {
+  background-color: #313336;
 }
