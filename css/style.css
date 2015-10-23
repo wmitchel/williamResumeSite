@@ -1,10 +1,28 @@
 /* All style should go in this document. */
-.name{
-	text-align: center;
+.about{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #FFFFFF;
 }
 
+.photo{
+  display: inline-block;
+}
+
+.aboutInfo{
+  display: inline-block;
+}
+.aboutInfo h4{
+  text-decoration: underline;
+  display: inline-block;
+}
+
+/* Contact CSS */
 .contact{
   width: 100%;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top: thick double #607D8B;
 }
 
 .contact h2{
@@ -94,4 +112,10 @@ body div ul{
 }
 #nav-button {
   background-color: #313336;
+}
+
+/* Adds a footer with height 40px at the bottom of the page */
+.footer{
+  width: 100%;
+  height: 40px;
 }
