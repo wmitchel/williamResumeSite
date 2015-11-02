@@ -99,11 +99,7 @@ body div h2{
   color: #FFFFFF;
 }
 
-body div p{
-  color: #FFFFFF;
-}
-
-body div ul{
+body div p, body div ul{
   color: #FFFFFF;
 }
 
