@@ -9,8 +9,8 @@
     display: inline-block;
 }
 
-.aboutInfo {
-    display: inline-block;
+.aboutInfo p {
+    width: 100%;
 }
 .aboutInfo h4 {
     text-decoration: underline;
@@ -105,10 +105,35 @@ body div p, body div ul{
 
 .navbar-brand{
     font-family: ‘Courier New’, Courier, monospace;
-    color: #16a085;
 }
 #nav-button {
     background-color: #313336;
+}
+
+.technology {
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top: thick double #607D8B;
+    padding-top: 10px;
+}
+
+.technology p {
+    display: inline-block;
+    color: #16a085;
+    font-size: 5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.technology h2 {
+    text-align: left;
+    width: 50%;
+    text-decoration: underline;
+    font-family: ‘Courier New’, Courier, monospace;
+    color: #FFFFFF;
 }
 
 /* Adds a footer with height 40px at the bottom of the page */
@@ -121,13 +146,21 @@ body div p, body div ul{
     .aboutInfo {
         display: inline-block;
         max-width: 45%;
-        text-align: center;
         vertical-align: middle;
+        text-align: center;
+        padding-left: 70px;
     }
     .aboutInfo p {
         display: inline-block;
     }
-    .photo {
+    .photo img {
         display: inline-block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 860px) {
+    .photo {
+        padding-left: 80px;
     }
 }
