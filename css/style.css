@@ -1,3 +1,15 @@
+/* Alex's additions */
+
+.content {
+    font-size: 15pt;
+    margin: 5px 0;
+}
+
+.about {
+    font-size: 14pt;
+}
+
+
 /* All style should go in this document. */
 .about {
     padding-top: 10px;
@@ -142,7 +154,7 @@ body div p, body div ul{
     height: 40px;
 }
 
-@media (min-width: 435px) {
+@media (min-width: 635px) {
     .aboutInfo {
         display: inline-block;
         max-width: 45%;
