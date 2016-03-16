@@ -45,6 +45,7 @@
     border-top-width: 1px;
     border-top-style: solid;
     border-top: thick double #607D8B;
+    border-bottom: thick double #607D8B;
 }
 
 /* Division bars above and below since it is the last section
