@@ -12,7 +12,6 @@ class App extends Component {
         <MuiThemeProvider>
           <Navigation/>
         </MuiThemeProvider>
-        <Welcome/>
       </div>
     );
   }
