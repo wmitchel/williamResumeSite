@@ -14,8 +14,15 @@
  import ChevronRightIcon from '@material-ui/icons/ChevronRight';
  import Welcome from './welcome';
  import Experience from './experience';
+import styled from 'styled-components';
 
  const drawerWidth = 240;
+
+ const SectionHeader = styled.h1`
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3D4C5F;
+ `
 
  const styles = theme => ({
    root: {
@@ -30,6 +37,7 @@
    },
    appBar: {
      position: 'absolute',
+     backgroundColor: '#3D4C5F',
      transition: theme.transitions.create(['margin', 'width'], {
        easing: theme.transitions.easing.sharp,
        duration: theme.transitions.duration.leavingScreen,
@@ -177,6 +185,7 @@
            >
              <div className={classes.drawerHeader} />
              <Welcome />
+             <SectionHeader>Professional Experience</SectionHeader>
              <Experience />
            </main>
          </div>
