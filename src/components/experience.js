@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-
-
 const ExperienceContainer = styled.div`
   margin: 1rem;
   display: flex;
@@ -69,19 +65,7 @@ const CardTechnologies = styled.p `
   color: #C588A7;
 `
 
- const styles = {
-  card: {
-    maxWidth: 400,
-  },
-  media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
-  }
-};
-
-function Experience(props) {
-  const { classes } = props;
-  return (
+const Experience = () => (
     <ExperienceContainer>
       <ExperienceCard>
         <CardHeader>
@@ -142,11 +126,6 @@ function Experience(props) {
         <CardTechnologies>Windows Server, SQL Server, MongoDB, IIS</CardTechnologies>
       </ExperienceCard>
     </ExperienceContainer>
-  );
-}
+)
 
-Experience.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(styles)(Experience);
+export default Experience;
