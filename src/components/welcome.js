@@ -85,7 +85,7 @@ const Welcome = () => (
       <SectionHeader>About Me</SectionHeader>
       <AboutMeInfo>
         I am a full stack developer with professional experience in C#, ASP.NET, AngularJS, MongoDB, and SQL Server looking for exciting opportunities 
-        in the Austin area. With experience on both the customer facing and development sides of the Enterprise Content Management industry, and a proven 
+        to apply my skills. With experience on both the customer facing and development sides of the Enterprise Content Management industry, and a proven 
         track record learning quickly, I’m ready to contribute to your company’s success! Like what you see here? Find more of my work or contact me at the links below.
       </AboutMeInfo>
       <ContactInfo>
